@@ -1,0 +1,35 @@
+# Dependencias
+node_modules/
+.pnp
+.pnp.js
+
+# Producción / Build
+dist/
+build/
+.next/
+out/
+
+# Variables de entorno (¡MUY IMPORTANTE!)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Carpeta Supabase y logs
+supabase/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDEs y Editores
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Logs de la aplicación
+server/logs/
+*.log
